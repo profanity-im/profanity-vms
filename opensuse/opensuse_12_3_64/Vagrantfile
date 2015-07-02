@@ -1,0 +1,11 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "opensuse_12_3_64"
+  config.vm.box_url = "http://sourceforge.net/projects/opensusevagrant/files/12.3/opensuse-12.3-64.box/download"
+  config.vm.host_name = "prof-opensuse12-3-64"
+  config.vm.provision "shell", path: "../../provisioning/prof-install-opensuse.sh"
+end
