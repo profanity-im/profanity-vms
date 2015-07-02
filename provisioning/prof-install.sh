@@ -37,7 +37,7 @@ make
 sudo make install
 cd ../..
 
-# FIXME libexpect can't seem to read stdout from the profanity process when run in vagrant provisioning
+# libexpect can't seem to read stdout from the profanity process when run in vagrant provisioning
 #sudo apt-get -y install libmicrohttpd-dev expect-dev tcl-dev
 #git clone git://github.com/boothj5/stabber.git
 #cd stabber
