@@ -7,6 +7,6 @@ install_libstrophe()
     ./bootstrap.sh
     ./configure --prefix=$1
     make
-    sudo make install
+    make install
     cd ..
 }

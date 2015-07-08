@@ -8,5 +8,5 @@ install_profanity()
     ./configure
     make
     make check-unit
-    sudo make install
+    make install
 }
