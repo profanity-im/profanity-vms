@@ -10,5 +10,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision "file", source: "../../provisioning/libstrophe.sh", destination: "/tmp/libstrophe.sh"
   config.vm.provision "file", source: "../../provisioning/cmocka.sh", destination: "/tmp/cmocka.sh"
   config.vm.provision "file", source: "../../provisioning/profanity.sh", destination: "/tmp/profanity.sh"
-  config.vm.provision "shell", path: "../provisioning/prof-install.sh"
+  config.vm.provision "shell", path: "../provisioning/prof-install-trusty.sh"
 end
