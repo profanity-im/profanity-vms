@@ -8,7 +8,7 @@
 ARCH=`arch`
 yum -y install git
 yum -y install gcc autoconf automake cmake
-yum -y install openssl-devel.$ARCH expat-devel.$ARCH ncurses-devel.$ARCH  glib2-devel.$ARCH libnotify-devel.$ARCH libcurl-devel.$ARCH libXScrnSaver-devel.$ARCH libotr3-devel.$ARCH readline-devel.$ARCH libtool libuuid-devel.$ARCH
+yum -y install openssl-devel.$ARCH expat-devel.$ARCH ncurses-devel.$ARCH  glib2-devel.$ARCH libnotify-devel.$ARCH libcurl-devel.$ARCH libXScrnSaver-devel.$ARCH libotr3-devel.$ARCH readline-devel.$ARCH libtool libuuid-devel.$ARCH gpgme-devel.$ARCH
 
 mkdir projects-git
 cd projects-git
