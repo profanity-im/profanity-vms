@@ -7,7 +7,7 @@
 
 zypper -n in git
 zypper -n in gcc automake make autoconf cmake
-zypper -n in gcc libopenssl-devel expat libexpat-devel ncurses-devel glib2-devel libnotify-devel libcurl-devel libXScrnSaver-devel libotr-devel readline-devel libtool libuuid-devel
+zypper -n in gcc libopenssl-devel expat libexpat-devel ncurses-devel glib2-devel libnotify-devel libcurl-devel libXScrnSaver-devel libotr-devel readline-devel libtool libuuid-devel libgpgme-devel
 
 mkdir projects-git
 cd projects-git
