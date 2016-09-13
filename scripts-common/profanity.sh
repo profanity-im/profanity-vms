@@ -9,4 +9,8 @@ install_profanity()
     make
     make check-unit
     make install
+    echo ---------------
+    echo Profanity build
+    echo ---------------
+    ./profanity -v
 }
