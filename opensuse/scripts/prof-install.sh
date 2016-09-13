@@ -12,7 +12,7 @@ zypper -n in gcc libopenssl-devel expat libexpat-devel ncurses-devel glib2-devel
 mkdir projects-git
 cd projects-git
 
-install_libstrophe /usr
+install_libstrophe --prefix=/usr
 install_cmocka
 /sbin/ldconfig
 

@@ -12,7 +12,7 @@ apt-get -y install libssl-dev libexpat1-dev libncursesw5-dev libglib2.0-dev libn
 mkdir projects-git
 cd projects-git
 
-install_libstrophe /usr
+install_libstrophe --prefix=/usr
 install_cmocka
 
 install_profanity

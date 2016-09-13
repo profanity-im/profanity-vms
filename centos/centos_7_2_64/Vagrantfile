@@ -4,8 +4,8 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "chef/centos-7.0"
-  config.vm.host_name = "prof-centos-7-64"
+  config.vm.box = "bento/centos-7.2"
+  config.vm.host_name = "prof-centos-7-2-64"
   config.vm.provision "file", source: "../../scripts-common/errhandler.sh", destination: "/tmp/errhandler.sh"
   config.vm.provision "file", source: "../../scripts-common/libstrophe.sh", destination: "/tmp/libstrophe.sh"
   config.vm.provision "file", source: "../../scripts-common/libmesode.sh", destination: "/tmp/libmesode.sh"

@@ -14,7 +14,7 @@ dnf -y install python-devel
 mkdir projects-git
 cd projects-git
 
-install_libmesode /usr
+install_libmesode --prefix=/usr
 install_cmocka
 /sbin/ldconfig
 
