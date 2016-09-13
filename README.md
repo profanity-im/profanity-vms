@@ -5,7 +5,7 @@ Used for testing installation of [Profanity](https://github.com/boothj5/profanit
 
 The VMs are created using Vagrant.
 
-To run the install test:
+From within the VM folder (e.g. `./centos/centos_7_64`) To run the install test:
 
     vagrant up
 
