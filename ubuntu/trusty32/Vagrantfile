@@ -8,6 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.host_name = "prof-trusty32"
   config.vm.provision "file", source: "../../scripts-common/errhandler.sh", destination: "/tmp/errhandler.sh"
   config.vm.provision "file", source: "../../scripts-common/libstrophe.sh", destination: "/tmp/libstrophe.sh"
+  config.vm.provision "file", source: "../../scripts-common/libmesode.sh", destination: "/tmp/libmesode.sh"
   config.vm.provision "file", source: "../../scripts-common/cmocka.sh", destination: "/tmp/cmocka.sh"
   config.vm.provision "file", source: "../../scripts-common/profanity.sh", destination: "/tmp/profanity.sh"
   config.vm.provision "shell", path: "../scripts/prof-install-trusty.sh"
