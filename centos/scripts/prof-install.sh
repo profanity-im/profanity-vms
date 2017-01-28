@@ -7,6 +7,7 @@
 . /tmp/profanity.sh
 
 yum -y install epel-release
+yum -y install wget
 yum -y install git
 yum -y install gcc autoconf automake cmake autoconf-archive
 yum -y install openssl-devel expat-devel ncurses-devel glib2-devel libnotify-devel libcurl-devel libXScrnSaver-devel libotr-devel readline-devel libtool libuuid-devel gpgme-devel gtk2-devel
